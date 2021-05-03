@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CED5FBB263FC8300062EA63 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CED5FBA263FC8300062EA63 /* sound-chime.mp3 */; };
+		1CED5FBE263FC85C0062EA63 /* play_sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CED5FBD263FC85C0062EA63 /* play_sound.swift */; };
 		1CFA92182636B0DA00C42D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA92172636B0DA00C42D6D /* AppDelegate.swift */; };
 		1CFA921A2636B0DA00C42D6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA92192636B0DA00C42D6D /* SceneDelegate.swift */; };
 		1CFA921C2636B0DA00C42D6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA921B2636B0DA00C42D6D /* ContentView.swift */; };
 		1CFA921E2636B0DF00C42D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA921D2636B0DF00C42D6D /* Assets.xcassets */; };
 		1CFA92212636B0DF00C42D6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA92202636B0DF00C42D6D /* Preview Assets.xcassets */; };
 		1CFA92242636B0DF00C42D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA92222636B0DF00C42D6D /* LaunchScreen.storyboard */; };
+		1CFF4B68263A64C800301CE1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF4B67263A64C800301CE1 /* CardView.swift */; };
+		1CFF4B6F263A7C0700301CE1 /* DeveloperData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF4B6E263A7C0700301CE1 /* DeveloperData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CED5FBA263FC8300062EA63 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		1CED5FBD263FC85C0062EA63 /* play_sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = play_sound.swift; sourceTree = "<group>"; };
 		1CFA92142636B0DA00C42D6D /* DeveloperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveloperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFA92172636B0DA00C42D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFA92192636B0DA00C42D6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		1CFA92202636B0DF00C42D6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1CFA92232636B0DF00C42D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CFA92252636B0DF00C42D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFF4B67263A64C800301CE1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1CFF4B6E263A7C0700301CE1 /* DeveloperData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				1CFA92192636B0DA00C42D6D /* SceneDelegate.swift */,
 				1CFA921B2636B0DA00C42D6D /* ContentView.swift */,
 				1CFA921D2636B0DF00C42D6D /* Assets.xcassets */,
+				1CED5FBA263FC8300062EA63 /* sound-chime.mp3 */,
 				1CFA92222636B0DF00C42D6D /* LaunchScreen.storyboard */,
 				1CFA92252636B0DF00C42D6D /* Info.plist */,
 				1CFA921F2636B0DF00C42D6D /* Preview Content */,
+				1CFF4B67263A64C800301CE1 /* CardView.swift */,
+				1CFF4B6E263A7C0700301CE1 /* DeveloperData.swift */,
+				1CED5FBD263FC85C0062EA63 /* play_sound.swift */,
 			);
 			path = DeveloperApp;
 			sourceTree = "<group>";
@@ -133,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFA92242636B0DF00C42D6D /* LaunchScreen.storyboard in Resources */,
+				1CED5FBB263FC8300062EA63 /* sound-chime.mp3 in Resources */,
 				1CFA92212636B0DF00C42D6D /* Preview Assets.xcassets in Resources */,
 				1CFA921E2636B0DF00C42D6D /* Assets.xcassets in Resources */,
 			);
@@ -146,7 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFA92182636B0DA00C42D6D /* AppDelegate.swift in Sources */,
+				1CED5FBE263FC85C0062EA63 /* play_sound.swift in Sources */,
 				1CFA921A2636B0DA00C42D6D /* SceneDelegate.swift in Sources */,
+				1CFF4B6F263A7C0700301CE1 /* DeveloperData.swift in Sources */,
+				1CFF4B68263A64C800301CE1 /* CardView.swift in Sources */,
 				1CFA921C2636B0DA00C42D6D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

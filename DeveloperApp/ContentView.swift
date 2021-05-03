@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    //MARK: - Properties
+    
+    //MARK: - body
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            ForEach(dataDevelopers){ developer in
+                CardView(developer: developer)
+            }
+        }.tabViewStyle(PageTabViewStyle())
+        
     }
 }
 
